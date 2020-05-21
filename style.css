@@ -39,11 +39,15 @@ a:visited {
 nav {
     margin-top: 16px;
     margin-bottom: 16px;
+    background-color: grey;
+    height: 2.5em;
 }
 
-nav a:first-of-type {
-    margin-left: 0;
+nav a:hover {
+  background-color: black; /* when hover: make bkacground black */
 }
 nav a {
-    margin: 8px;
+  padding: 15px;
+  transition: .5s; /* any time we use a new effect, transition for half a second*/
+  line-height: 2.5em;
 }
