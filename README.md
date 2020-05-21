@@ -1,2 +1,2 @@
 # crushcode.ml
-My First Site 
+My Personal Site 
